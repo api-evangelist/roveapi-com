@@ -1,4 +1,4 @@
-# roveapi-com
+# Rove
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-roveapi-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://roveapi.com/
+Rove provides a supervised browser platform that enables agents to drive real web browsers remotely. Users can view and control browser sessions in real time, approve actions, and integrate the service via API keys. The service offers pricing plans, documentation, and a status page, and is built by Noncelogic. It targets platforms needing automated web interactions with human oversight.
+
+**Areas:** AI · Automation · Browser · Supervised · Platform
+
+## Rove on APIs.io
+
+Everything profiled for Rove is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/roveapi-com/](https://apis.io/providers/roveapi-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Rove API](https://apis.io/apis/roveapi-com/roveapi-com-api/) — Rove API as documented publicly: 89 operations. Contract generated from the documentation by API Evangelist (2026-11-23); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DeleteV1BrowserSessionSessionidPoppyPoppysessionidResponse](https://apis.io/schemas/roveapi-com/roveapi-com-delete-v1-browser-session-sessionid-poppy-poppysessionid-response/)
+- [GetV1BrowserSessionSessionidPoppyPoppysessionidResponse](https://apis.io/schemas/roveapi-com/roveapi-com-get-v1-browser-session-sessionid-poppy-poppysessionid-response/)
+- [GetV1BrowserSessionSessionidPoppyResponse](https://apis.io/schemas/roveapi-com/roveapi-com-get-v1-browser-session-sessionid-poppy-response/)
+- [PostV1BrowserSessionSessionidPoppyPoppysessionidSignInRespon](https://apis.io/schemas/roveapi-com/roveapi-com-post-v1-browser-session-sessionid-poppy-poppysessionid-sign-in-respon/)
+- [PostV1BrowserSessionSessionidPoppyRequest](https://apis.io/schemas/roveapi-com/roveapi-com-post-v1-browser-session-sessionid-poppy-request/)
+- [PostV1BrowserSessionSessionidPoppyResponse](https://apis.io/schemas/roveapi-com/roveapi-com-post-v1-browser-session-sessionid-poppy-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Roveapi Com Context](https://apis.io/jsonld/roveapi-com/roveapi-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Rove API Rules](https://apis.io/rules/roveapi-com/roveapi-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rove Authentication](https://apis.io/security/roveapi-com/roveapi-com-authentication/)
+- [Rove Domain Security](https://apis.io/security/roveapi-com/roveapi-com-domain-security/)
+- [Rove Vulnerability Disclosure](https://apis.io/security/roveapi-com/roveapi-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rove Plans Pricing](https://apis.io/plans/roveapi-com/roveapi-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://roveapi.com/)
+- [Documentation](https://roveapi.com/docs)
+- [Getting started](https://roveapi.com/docs/quickstart)
+- [API reference](https://roveapi.com/docs/api)
+- [Pricing](https://roveapi.com/pricing)
+- [Support](https://roveapi.com/support)
+- [Changelog](https://roveapi.com/docs/changelog)
+- [Terms of service](https://roveapi.com/terms)
+- [Privacy policy](https://roveapi.com/privacy)
+- [Status](https://status.roveapi.com)
+
+## API Evangelist rating
+
+**Kin Score 54.1** — developing · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 38.1 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 40.9 |
+
+**Agent readiness 40.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/roveapi-com/](https://apis.io/providers/roveapi-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rove: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/roveapi-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
